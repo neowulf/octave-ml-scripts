@@ -1,0 +1,23 @@
+PS1('>>');
+cd('C:/Users/kommuri/Dropbox/Coursera/Machine Learning/mlclass-ex1-004')
+
+
+% Looking at the data using scatterplot
+% read comma separated data
+data = load('mlclass-ex1/ex1data1.txt');
+X = data(:, 1);
+y = data(:, 2);
+m = length(y);
+plot(X, y, 'rx', 'MarkerSize', 10);
+ylabel('Profit in $10,000s');
+xlabel('Population of City in 10,000s'); 
+
+
+X = [ones(m, 1), data(:,1)]; % Add a column of ones to x
+theta = zeros(2, 1); % initialize fitting parameters
+iterations = 1500;
+alpha = 0.01;
+
+t = [0:0.01:0.98]
+y1=sin(2*pi*4*t)
+plot(t,y1);
