@@ -1,5 +1,5 @@
 PS1('>>');
-cd('C:/Users/kommuri/Dropbox/Coursera/Machine Learning/mlclass-ex1-004')
+cd('C:/Users/kommuri/Dropbox/Coursera/Machine Learning/mlclass-ex1-004/mlclass-ex1')
 
 
 % Looking at the data using scatterplot
